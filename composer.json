@@ -17,7 +17,7 @@
     ],
     "autoload": {
         "files": [
-            "registration.php"
+            "msg91/Magento/registration.php"
         ],
         "psr-4": {
             "msg91\\Magento\\": ""
