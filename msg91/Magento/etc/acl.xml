@@ -3,7 +3,7 @@
     <acl>
         <resources>
             <resource id="Magento_Adminhtml::admin">
-                <resource id="TGM_Voodoo::sms" title="Voodoo SMS" sortOrder="100">
+                <resource id="TGM_Voodoo::sms" title="MSG91 Magento" sortOrder="100">
                     <resource id="TGM_Voodoo::config" title="Config" sortOrder="10" />
                 </resource>
                 <resource id="Magento_Adminhtml::stores">

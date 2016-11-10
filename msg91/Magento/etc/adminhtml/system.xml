@@ -2,7 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Config/etc/system_file.xsd">
     <system>
         <tab id="tgm_voodoo" sortOrder="2000">
-            <label>Voodoo SMS</label>
+            <label>MSG91 Magento</label>
         </tab>
         <section id="tgm_voodoo_configuration" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
 
@@ -12,15 +12,15 @@
             <group id="basic_configuration" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label><![CDATA[Basic Configuration&nbsp;&nbsp;<i>Setting API Account</i>]]></label>
                 <field id="voodoo_username" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Enter Voodoo Username</label>
-                    <comment>Enter your Voodoo SMS API Username</comment>
-                    <tooltip>Your username must be the same as your voodoo api username</tooltip>
+                    <label>Enter MSG91 Username</label>
+                    <comment>Enter your MSG91 Username</comment>
+                    <tooltip>Your username must be the same as your MSG91 api username</tooltip>
                     <validate>required-entry</validate>
                 </field>
                 <field id="voodoo_password" type="password" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Enter Voodoo Password</label>
-                    <comment>Enter your Voodoo SMS API Password</comment>
-                    <tooltip>Your password must be the same as your voodoo api password</tooltip>
+                    <label>Enter MSG91 Password</label>
+                    <comment>Enter your MSG91 SMS API Password</comment>
+                    <tooltip>Your password must be the same as your MSG91 api password</tooltip>
                     <validate>required-entry</validate>
                 </field>
             </group>
