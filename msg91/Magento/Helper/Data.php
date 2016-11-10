@@ -28,7 +28,7 @@ class Data extends AbstractHelper
      * To be used by the API
      * @var string
      */
-    protected $_host             = 'https://www.voodoosms.com/';
+    protected $_host             = 'http://api.msg91.com/';
 
     /**
      * Getting Basic Configuration
@@ -357,12 +357,12 @@ class Data extends AbstractHelper
     public function sendSms($username, $password, $senderID, $destination, $message)
     {
         $_host       = $this->_host;
-        $path       = 'vapi/server/sendSMS?';
+        $path       = 'api/sendhttp.php?route=4&country=91&';
         $data       = 'uid='.urlencode($username).
-                      '&pass='.urlencode($password).
-                      '&dest='.urlencode($destination).
-                      '&orig='.urlencode($senderID).
-                      '&msg='.urlencode($message).
+                      '&authkey='.urlencode($password).
+                      '&mobiles='.urlencode($destination).
+                      '&sender='.urlencode($senderID).
+                      '&message='.urlencode($message).
                       '&validity=300';
         $_format     = '&format='.$this->_format;
         $_platform   = '&platform='.$this->_platform.
