@@ -5,7 +5,7 @@ namespace TGM\Voodoo\Observer;
 use Magento\Framework\Event\ObserverInterface;
 use \Magento\Framework\Event\Observer       as Observer;
 use \Magento\Framework\View\Element\Context as Context;
-use \TGM\Voodoo\Helper\Data                 as Helper;
+use \msg91\Magento\Helper\Data                 as Helper;
 /**
  * Customer login observer
  */
