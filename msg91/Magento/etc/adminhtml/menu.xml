@@ -4,11 +4,11 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
     <menu>
-        <add id="msg91_magento::voodoo" title="Magento MSG91 SMS" module="msg91_magento" sortOrder="11" resource="msg91_magento::voodoo"/>
-        <add id="msg91_magento::voodoo_head" title="Settings" module="msg91_magento" sortOrder="40"
-             parent="msg91_magento::voodoo" resource="msg91_magento::voodoo"/>
-        <add id="msg91_magento::config" title="Configuration" module="msg91_magento" sortOrder="50"
-             action="adminhtml/system_config/edit/section/msg91_magento_configuration"
-             resource="msg91_magento::voodoo" parent="msg91_magento::voodoo_head" />
+        <add id="TGM_Voodoo::voodoo" title="Voodoo SMS" module="TGM_Voodoo" sortOrder="11" resource="TGM_Voodoo::voodoo"/>
+        <add id="TGM_Voodoo::voodoo_head" title="Settings" module="TGM_Voodoo" sortOrder="40"
+             parent="TGM_Voodoo::voodoo" resource="TGM_Voodoo::voodoo"/>
+        <add id="TGM_Voodoo::config" title="Configuration" module="TGM_Voodoo" sortOrder="50"
+             action="adminhtml/system_config/edit/section/tgm_voodoo_configuration"
+             resource="TGM_Voodoo::voodoo" parent="TGM_Voodoo::voodoo_head" />
     </menu>
 </config>

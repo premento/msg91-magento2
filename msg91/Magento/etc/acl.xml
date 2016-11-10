@@ -3,13 +3,13 @@
     <acl>
         <resources>
             <resource id="Magento_Adminhtml::admin">
-                <resource id="msg91_magento::sms" title="Magento MSG91 SMS" sortOrder="100">
-                    <resource id="msg91_magento::config" title="Config" sortOrder="10" />
+                <resource id="TGM_Voodoo::sms" title="Voodoo SMS" sortOrder="100">
+                    <resource id="TGM_Voodoo::config" title="Config" sortOrder="10" />
                 </resource>
                 <resource id="Magento_Adminhtml::stores">
                     <resource id="Magento_Adminhtml::stores_settings">
                         <resource id="Magento_Adminhtml::config">
-                            <resource id="msg91_magento::sms_config" title="Configuration" />
+                            <resource id="TGM_Voodoo::sms_config" title="Configuration" />
                         </resource>
                     </resource>
                 </resource>

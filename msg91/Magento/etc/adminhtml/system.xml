@@ -1,34 +1,34 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Config/etc/system_file.xsd">
     <system>
-        <tab id="msg91_magento" sortOrder="2000">
-            <label>Magento MSG91 SMS</label>
+        <tab id="tgm_voodoo" sortOrder="2000">
+            <label>Voodoo SMS</label>
         </tab>
-        <section id="msg91_magento_configuration" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+        <section id="tgm_voodoo_configuration" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
 
             <label>Basic Configuration</label>
-            <tab>msg91_magento</tab>
-            <resource>msg91_magento::sms</resource>
+            <tab>tgm_voodoo</tab>
+            <resource>TGM_Voodoo::sms</resource>
             <group id="basic_configuration" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label><![CDATA[Basic Configuration&nbsp;&nbsp;<i>Setting API Account</i>]]></label>
                 <field id="voodoo_username" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Enter MSG91 Username</label>
-                    <comment>Enter your MSG91 SMS API Username</comment>
-                    <tooltip>Your username must be the same as your MSG91 api username</tooltip>
+                    <label>Enter Voodoo Username</label>
+                    <comment>Enter your Voodoo SMS API Username</comment>
+                    <tooltip>Your username must be the same as your voodoo api username</tooltip>
                     <validate>required-entry</validate>
                 </field>
                 <field id="voodoo_password" type="password" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Enter Voodoo Password</label>
-                    <comment>Enter your MSG91 SMS API Auth Key</comment>
-                    <tooltip>Your password must be the same as your msg91 api key</tooltip>
+                    <comment>Enter your Voodoo SMS API Password</comment>
+                    <tooltip>Your password must be the same as your voodoo api password</tooltip>
                     <validate>required-entry</validate>
                 </field>
             </group>
         </section>
-        <section id="msg91_magento_orders" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+        <section id="tgm_voodoo_orders" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>Order Notifications</label>
-            <tab>msg91_magento</tab>
-            <resource>msg91_magento::sms</resource>
+            <tab>tgm_voodoo</tab>
+            <resource>TGM_Voodoo::sms</resource>
             <group id="new_order" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>When a New Order is Placed</label>
                 <field id="voodoo_new_order_enabled" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -147,10 +147,10 @@
                 </field>
             </group>
         </section>
-        <section id="msg91_magento_admins" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+        <section id="tgm_voodoo_admins" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>Admin Configuration</label>
-            <tab>msg91_magento</tab>
-            <resource>msg91_magento::sms</resource>
+            <tab>tgm_voodoo</tab>
+            <resource>TGM_Voodoo::sms</resource>
             <group id="admin_configuration" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Admin Configuration</label>
                 <field id="voodoo_admin_enabled" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">

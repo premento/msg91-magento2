@@ -79,7 +79,7 @@ class InstallSchema implements InstallSchemaInterface
                     ['nullable' => false, 'default' => '0'],
                     'Status'
                 )
-                ->setComment('MSG91 Magento Table')
+                ->setComment('Voodoo SMS Table')
                 ->setOption('type', 'InnoDB')
                 ->setOption('charset', 'utf8');
             $installer->getConnection()->createTable($table);
